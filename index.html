@@ -170,17 +170,75 @@ background-size: cover - no empty space
                 /contain - complete fit but priority is completely filled
                 /auto - jitni aa paa rhi hoti hain utni aati hai default
 
+FLEXBOX
+
+flexible box layout - one d layput method for arranging items in rows and columns
+display:flex;
+horizontal direct is the main axis
+vertical is thye cross axis
+
+Flexbox direction - sets how flex items are placed in the flex container, along which axis and direction
+
+flex-direction:row; //default
+flex-direction:row-reverse;
+flex-direction:column;
+flex-direction:column-reverse;
+
+Flex Container 
+
+1. justify-content: alignment along the main axis
+
+flex-start/flex-end/centre/space-evenly/space-between/space around
+
+ flex-wrap
+ align-content:
+
+ Flex item
+
+ align self: alignment of individual along the cross axis
+
+ flex-grow: how much a flex item will grow relative to the rest of the flex if space is available
+
+ flex-shrink:
+
+ Media Queries
+  // responsive websites
+
+  @media(width:600px)
+  {
+    di
+  }
+//state change
+div:hover{
+
+}
+div:active{
+
+}
+
+//Transitions
+property name
+duration
+timing function 
+time delay
+delay
+
+tranisition shorthand
+
+CSS Transform
+rotate
+
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Level 1</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css"> <!--external style sheet -->
 </head>
 <body>
-    <h1 id="Heading1">
+    <!-- <h1 id="Heading1">
         Helu from Nivedita
     </h1>
     <p>
@@ -191,6 +249,15 @@ background-size: cover - no empty space
     </button>
     <div>
         this is a div
+    </div> -->
+    <h1>FlexBox Playground</h1>
+    <div id="container">
+        <div id="box1">box 1</div>
+        <div id="box2">box 2</div>
+        <div id="box3">box 3</div>
+        <div id="box4">box 4</div>
+        <div id="box5">box 5</div>
+        <!-- <div id="box1"></div> -->
     </div>
 
     <!-- anchor tag <a href = www.google.com> Click me</a> -->

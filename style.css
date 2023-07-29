@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color:aquamarine;
 }
 
@@ -11,4 +11,38 @@ button{
 }
 body{
     background-color: beige;
+} */
+
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width:800px;
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#box1{
+    background-color: aquamarine;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color: darkkhaki;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
 }
