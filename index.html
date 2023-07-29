@@ -58,9 +58,117 @@
     Text Transform : Upper case/ lower case/Capitailsed/none
 
     Level 2 - BOX Model
+    blue - content
+    orange - margin
 
+                                Margin
+
+                                Border
+
+                               padding
     
+ margin     padding             content        padding    margin
 
+                                 padding
+
+                                 Border
+
+                                margin
+
+1. height = height or the area of the content
+   Default = it sets the area height of the element
+
+   div{
+    height:50px;
+    width:200px;
+   }
+2. Width : Full area that is covers
+           Default area is full screen
+3.Border 
+   border-width:2px;
+   border-style:solid/dotted/dashed;
+   border-color:black;
+text align works with centering according to the width and border defined and not the whole webpage
+
+border shorthand
+border: 2px solid black;
+
+Border radius:
+//to make border rounded
+border-radius:10px; //jitni badi radius utna round border jitna kam utna kam round border
+border-radius:50%; //circle
+
+Padding: area between content and the margin
+
+Green highlighted
+
+padding-left:
+padding-right:
+padding-top
+padding-bottom
+//shorthand
+Padding:50px; //all directions t r b l
+padding: 1px 2px 3px 4px t r b l
+
+Margin 
+area between two boxes
+margin-right
+mardin-left
+margin-top
+margin-bottom
+
+DISPLAY Property
+inline - only utilises the space required div
+block - occupies 100% width span button input anchor
+
+display:inline/block/inline-block/none;
+inline drawbacks that it doesnt aloow margin from top and bottom
+so we use inline-block - allows to set margin and padding
+none:to remove doc flow even removes the space of that particular element
+
+VISIBILITY PROPERTY
+id visibility:hidden is used the place will be reserved but that element will be hidden
+
+ALPHA CHANNEL
+RGBA opacity a is the alpha channel(0-1)0-not visible 1-visible
+
+UNITS in CSS
+Relative
+
+%,em,rem
+Percentage : used to define size relative to its parent object
+Em : text related properties - relative to the font size of the parent
+    1 em - same size
+    2em - 2 times
+    0.5em - half size
+
+Rem - root em font size of the root element
+
+vh - 1% of view port height
+vw - 1 % of viewport width
+
+POSITION PROPERTY
+
+static: default position - the top right bottom left and z-index properties have no effect
+top,right,bottom,left not applicable
+
+relative - element relative to itself
+absolute - positioned relative to its closest positioned ancestor(non static)
+fixed
+sticky
+
+Z - index
+decides the stack level of elements
+overlapping elements with larger z index over the elements with smaller z index
+z-index:auto(0)
+z-index:1/2/3
+z-index:-1/-2/-3
+
+BACKGROUND IMAGE
+background-image: url(" ")
+background-size: cover - no empty space
+                /contain - complete fit but priority is completely filled
+                /auto - jitni aa paa rhi hoti hain utni aati hai default
 
 -->
 <!DOCTYPE html>
@@ -81,6 +189,9 @@
     <button>
         Click Me!
     </button>
+    <div>
+        this is a div
+    </div>
 
     <!-- anchor tag <a href = www.google.com> Click me</a> -->
     

@@ -1,0 +1,13 @@
+div{
+
+    height: 100px;
+    width: 100px;
+    background-image: url("nature.jpg");
+    background-size: cover;
+    color: antiquewhite;
+    border-radius: 5px;
+    position: fixed;
+    right:0px;
+    top:50px;
+
+}
